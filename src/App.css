@@ -44,15 +44,19 @@ a {
   gap: 20px;
 }
 
-.navbar__link {
+.navbar__li {
   color: white;
   font-size: 14px;
   transition: all 0.2s ease;
 }
 
-.navbar__link:hover {
+.navbar__li:hover {
   transform: translateY(-3px);
   color: #ddd;
+}
+
+.navbar__link{
+  color: white;
 }
 
 .navbar__btn{

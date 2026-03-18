@@ -8,14 +8,14 @@ function App() {
           <h1 className="nvabar__logo">My Info</h1>
 
           <ul className="navbar__ul">
-            <li className="navbar__link">
-              <a href="#about">About</a>
+            <li className="navbar__li">
+              <a className="navbar__link" href="#about">About</a>
             </li>
-            <li className="navbar__link">
-              <a href="#skills">Skills</a>
+            <li className="navbar__li">
+              <a className="navbar__link" href="#skills">Skills</a>
             </li>
-            <li className="navbar__link">
-              <a href="#contact">Contact</a>
+            <li className="navbar__li">
+              <a className="navbar__link" href="#contact">Contact</a>
             </li>
           </ul>
 
